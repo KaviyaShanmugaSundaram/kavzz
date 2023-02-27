@@ -1,0 +1,53 @@
+.Whole{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #f7f7f7;
+}.Card
+{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.Logo
+{
+    display: flex;
+    justify-content: center;
+}
+.DetailCard
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+.SubmitCard
+{
+    padding:10px;
+}
+button {
+    background-color: #085b8b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+button:hover {
+    opacity: 0.8;
+  }
+  .InstagramLogo{
+    height: 100px;
+    width: 150px;
+  }
